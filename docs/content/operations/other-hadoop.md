@@ -185,7 +185,6 @@ libraryDependencies ++= Seq(
     ExclusionRule("com.fasterxml.jackson.module")
   ),
   "io.druid.extensions" % "druid-hdfs-storage" % "0.7.3" excludeAll (
-- masquer le texte des messages précédents -
     ExclusionRule("org.ow2.asm"),
     ExclusionRule("com.fasterxml.jackson.core"),
     ExclusionRule("com.fasterxml.jackson.datatype"),
